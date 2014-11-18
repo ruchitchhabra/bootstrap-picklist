@@ -1,0 +1,21 @@
+.pick-list-item {
+	cursor: pointer;
+	padding: 0px 10px 2px 10px !important;
+	border-right: solid 2px #fff;
+	border-left: solid 2px #fff;
+}
+
+.pick-list-item  input,
+.pick-list-item  span {
+	margin-left: 5px;
+}
+
+.pick-list-item-hover {
+	color: #262626;
+	background-image: linear-gradient(to bottom, #f8f8f8 0%, #f5f5f5 100%);
+}
+
+.pick-list-item-active {
+	color: #ffffff;
+	background-image: linear-gradient(to bottom, #428bca 0%, #2D6CA3 100%);
+}
